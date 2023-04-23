@@ -179,9 +179,17 @@ button {
     padding: 45px 48px 0;
   }
 
+  .order-summary__heading {
+    font-size: 2.8rem;
+  }
+
   .order-summary__details {
     gap: 32px;
     padding: 24px 48px 48px;
+  }
+
+  .order-summary__pricing {
+    font-size: 1.6rem;
   }
 
   .order-summary__plan {
