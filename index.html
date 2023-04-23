@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Order summary card</title>
+</head>
+<body>
+  <main class="order-summary">
+    <img class="order-summary__bg" src="./images/illustration-hero.svg" alt="order summary background">
+    <div class="order-summary__about">
+      <h1 class="order-summary__heading">Order summary</h1>
+      <p class="order-summary__desc">You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
+    </div>
+    <div class="order-summary__details">
+      <div class="order-summary__plan">
+        <img class="order-summary__icon" src="./images/icon-music.svg" alt="music icon">
+        <div class="order-summary__pricing">
+          <p class="order-summary__chosen-plan">Annual plan</p>
+          <p class="order-summary__price">$59.99/year</p>
+        </div>
+        <button class="order-summary__change-btn">Change</button>
+      </div>
+      <button class="order-summary__proceed-btn">Proceed to Payment</button>
+      <button class="order-summary__cancel-btn">Cancel order</button>
+    </div>
+  </main>
+  <script type="application/javascript">
+    const documentHeight = () => document.documentElement.style.setProperty('--height', `${window.innerHeight}px`);
+    window.addEventListener('resize', documentHeight);
+    documentHeight();
+  </script>
+</body>
+</html>
