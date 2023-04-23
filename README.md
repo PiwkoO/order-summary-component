@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution on frontendmentor.io]()
-- [Live preview]()
+- [Solution on frontendmentor.io](https://www.frontendmentor.io/solutions/order-summary-card-component-Ncyx5vX2x3)
+- [Live preview](https://piwkoo.github.io/order-summary-component/)
 
 ## My process
 
